@@ -25,4 +25,8 @@ public class Plane
     public String get_planemodel() {return this.planemodel;}
     public int get_tanklvolume(){return this.tankvolume;}
     
+    public void set_id(int id_) {this.planeid= id_;}
+    public void set_planemodel(String plm) {this.planemodel = plm;}
+    public void set_tankvolume(int tankvlm) {this.tankvolume = tankvlm;}
+    
 }
